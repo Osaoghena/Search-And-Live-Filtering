@@ -1,0 +1,82 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 40px 20px;
+    font-family: Cambria, sans-serif;
+    background: #D0F0C0;
+    color: #1A2421;
+}
+
+.container {
+    max-width: 750px;
+    margin: auto;
+}
+
+h1 {
+    margin-bottom: 10px;
+    color: #1a2421;
+}
+
+.subtitle {
+    color: #78866b;
+    margin-bottom: 25px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+#searchInput {
+    width: 100%;
+    padding: 14px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    outline: none;
+}
+
+#searchInput:focus {
+    border-color: #4267b2;
+    box-shadow: 0 0 0 3px #4267b233;
+}
+
+#resultCount {
+    margin: 20px 0 12px;
+    color: #555;
+    font-size: 14px;
+}
+
+.term-card {
+    background: white;
+    padding: 18px;
+    margin-bottom: 12px;
+    border-radius: 8px;
+    border: 1px solid #e2e5ec;
+    box-shadow: 0 2px 5px #00000008;
+}
+
+.term-card h2 {
+    margin: 0 0 8px;
+    font-size: 19px;
+    color: #1a2421;
+}
+
+.term-card p {
+    margin: 0;
+    line-height: 1.5;
+    color: #444;
+}
+
+#noMatches {
+    display: none;
+    padding: 25px;
+    text-align: center;
+    background: white;
+    border-radius: 8px;
+    color: #777;
+}
